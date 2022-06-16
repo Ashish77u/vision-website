@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(55, 50, 50);
+}
+section{
+    height: 10vh;
+/* border: 2px solid; */
+display: flex;
+justify-content: space-between;
+background: rgb(133 120 208);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#logo img{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 3.5rem;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#navbar{
+    display: flex;
+
+}
+#navbar li{
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+#navbar li a{ 
+    margin: 4px;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    
+}
+#navbar li a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#joinbar{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+#joinbar a{
+    border: 2px solid black;
+    display: flex;
+    height: 2rem;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    font-size: 1rem;
+}
+#joinbar a:hover{
+    background: rgb(115, 95, 225);
+    color: whitesmoke;
+    font-size: 1.1rem;
+}

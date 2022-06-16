@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(55, 50, 50);
+
+}
+/* navigation bar */
+section{
+    height: 10vh;
+/* border: 2px solid; */
+display: flex;
+justify-content: space-between;
+background: rgb(133 120 208);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#logo img{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 3.5rem;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#navbar{
+    display: flex;
+
+}
+#navbar li{
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+#navbar li a{ 
+    margin: 4px;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    
+}
+#navbar li a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#joinbar{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+#joinbar a{
+    border: 2px solid black;
+    display: flex;
+    height: 2rem;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    font-size: 1rem;
+}
+#joinbar a:hover{
+    background: rgb(115, 95, 225);
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+/* search bar start */
+#searchbar{
+    margin-top: 5px;
+    background: none;
+}
+#search-bar{
+    display: block;
+    margin: auto;
+}
+input{
+    width: 91vw;
+    display: block;
+    margin: 10px auto;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+
+}
+input .bar{
+    font-size: 1.5rem;
+
+}
+
+ /* main */
+ main p{
+     margin-bottom: 5px;
+ }
+ 
+main .box1{
+    background-color: black;
+    width: 100%;
+    height: 122px;
+    color: whitesmoke;
+    padding: 13px;
+    font-size: 1.1rem;
+margin-bottom: 10px;
+cursor: pointer;
+}
+main .box1 .para2{
+    font-size: 1rem;
+
+}
+main .box1 .para3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main .box2{
+    background-color: black;
+    width: 100%;
+    height: 122px;
+    color: whitesmoke;
+    padding: 13px;
+    font-size: 1.1rem;
+margin-bottom: 10px;
+cursor: pointer;
+}
+main .box2 .para2{
+    font-size: 1rem;
+
+}
+main .box2 .para3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main .box3{
+    background-color: black;
+    width: 100%;
+    height: 122px;
+    color: whitesmoke;
+    padding: 13px;
+    font-size: 1.1rem;
+margin-bottom: 10px;
+cursor: pointer;
+}
+main .box3 .para2{
+    font-size: 1rem;
+
+}
+main .box3 .para3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(55, 50, 50);
+}
+section{
+    height: 10vh;
+/* border: 2px solid; */
+display: flex;
+justify-content: space-between;
+background: rgb(133 120 208);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#logo img{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 3.5rem;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#navbar{
+    display: flex;
+
+}
+#navbar li{
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+#navbar li a{ 
+    margin: 4px;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    
+}
+#navbar li a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#joinbar{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+#joinbar a{
+    border: 2px solid black;
+    display: flex;
+    height: 2rem;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    font-size: 1rem;
+}
+#joinbar a:hover{
+    background: rgb(115, 95, 225);
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+/* main contant */
+main{
+    background: black;
+    height: 60vh;
+    margin-bottom:10px ;
+    color: whitesmoke;
+    padding: 10px;
+}
+main p{
+    font-size: 1.2rem;
+
+}
+
+/* footer  */
+
+footer{
+    color: whitesmoke;
+    background: black;
+    height: 28.5vh;
+    padding: 10px;
+}
+
+#tital{
+padding-bottom: 10px;
+display: block;
+width: 100%;
+margin: 2px;
+cursor: pointer;
+
+}
+#boxbar{
+    display: flex;
+cursor: pointer;
+}
+
+footer #box1{
+    background-color: rgb(201, 150, 150);
+    width: 295px;
+    height: 123px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding: 11px;
+}
+footer #box1 .para1{
+    background-color: #6c1e07;
+    border-radius: 8px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 230px;
+}
+footer #box1 .para2{
+    margin-top:5px ;
+}
+footer #box1 .para3{
+     /* position: relative; */
+     position: absolute;
+     right: 5px;
+     bottom: 5px;
+}
+
+footer #box2{
+    background-color: rgb(201, 150, 150);
+    width: 295px;
+    height: 123px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding: 11px;
+}
+footer #box2 .para1{
+    background-color: #6c1e07;
+    border-radius: 8px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 230px;
+}
+footer #box2 .para2{
+    margin-top:5px ;
+}
+footer #box2 .para3{
+     position:absolute;
+     right:5px;
+     bottom:5px;
+}
+
+footer #box3{
+    background-color: rgb(201, 150, 150);
+    width: 295px;
+    height: 123px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding: 11px;
+}
+footer #box3 .para1{
+    background-color: #6c1e07;
+    border-radius: 8px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 230px;
+}
+footer #box3 .para2{
+    margin-top:5px ;
+}
+footer #box3 .para3{
+     position:absolute;
+     right:5px;
+     bottom:5px;
+}
+
+footer #box4{
+    background-color: rgb(201, 150, 150);
+    width: 295px;
+    height: 123px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding: 11px;
+}
+footer #box4 .para1{
+    background-color: #6c1e07;
+    border-radius: 8px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 230px;
+}
+footer #box4 .para2{
+    margin-top:5px ;
+}
+footer #box4 .para3{
+     position:absolute;
+     right:5px;
+     bottom:5px;
+}
+
+footer #box5{
+    background-color: rgb(201, 150, 150);
+    width: 295px;
+    height: 123px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding: 11px;
+}
+footer #box5 .para1{
+    background-color: #6c1e07;
+    border-radius: 8px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 230px;
+}
+footer #box5 .para2{
+    margin-top:5px ;
+}
+footer #box5 .para3{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    
+}
